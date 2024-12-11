@@ -1,0 +1,77 @@
+video: Lerntechniken für den Flipped Classroom
+
+writer: Prof. Dr. Peter Braun
+
+style: C:\Users\jonas\Desktop\Bachelorarbeit\test\style.yaml
+
+scene:
+    element:
+        typ: slide
+        titel: Lernziele
+        contents: |
+        - Sie kennen die Flipped Classroom Methodik
+        - Sie beschreiben die drei Lernphasen
+        - Sie verstehen Ihre Rolle im Lernprozess
+        - Sie erstellen Lern- und Zeitpläne
+        - Mehr Infos findet Ihr unter [THWS](https://www.thws.de)
+        button: Git-Repo (https://github.de)
+
+    element:
+        typ: teleprompt
+        titel: Lernziele
+        contents: |
+        Liebe Studierende, Herzlich Willkommen zu diesem kurzen Video. Bevor wir so richtig mit dem Stoff 
+        anfangen, möchte ich Ihnen in diesem Video die Methode vorstellen, mit der sie in diesem Semester 
+        und in diesem Modul arbeiten werden. Sie nennt sich Flipped Classroom, ich hatte es ja bei der 
+        Kick-Off Veranstaltung auch schon erwähnt. Flipped Classroom bedeutet, wir vertauschen die 
+        Aufgaben zwischen Präsenzveranstaltung und der Selbstlernzeit zu Hause. In diesem Video möchte 
+        ich Ihnen die Methode noch etwas genauer vorstellen und Ihnen vor allem einige Hinweise, 
+        vielleicht auch Tipps geben, wie Sie mit der Methode erfolgreich dieses Modul abschließen werden. 
+        Am Ende dieses Videos sollten Sie vor allem die drei Lernphasen beschreiben können, die es bei 
+        Flipped Classroom gibt. Sie sollten auch verstanden haben, was Ihre Rolle im Lernprozess ist und 
+        dass Sie beim Flipped Classroom mehr Verantwortung für Ihren Lernerfolg übernehmen müssen. 
+        Außerdem sollten Sie motiviert sein, sich Lern- und Zeitpläne für das Semester zu machen.
+
+    element:
+        typ: screencast
+        file: video.mp4
+
+    element:
+        typ: quiz
+        questions:
+        - question: Was ist 2 x 3
+            answers: [4, 9, 6, das weiß ich leider nicht]
+            correct: 6
+        - question: Wofür steht txt
+            answers: [Python, Textdatei, Testlauf, Executable]
+            correct: Textdatei
+
+
+scene:
+    element:
+        typ: slide
+        titel: Ein Modul in einem Studium
+        contents: |
+        - Abgeschlossenes Thema in Ihrem Studiengang
+
+        - Angebot zum Erwergb von Wissen und Erfahrungen
+        - Didaktische Aufbereitung durch die Lehrenden
+
+        - Leistungskontroll in Form einer Prüfung
+
+    element:
+        typ: teleprompt
+        titel: Ein Modul in einem Studium
+        contents: |
+        Begriffsklärung ist oft der erste Schritt, um ein neues Thema zu verstehen. Daher beginnen wir
+        mit der Definition des Begriffs "Modul" im Kontext eines Studienganges. Ein Modul können Sie 
+        als einzelnes, abgeschlossenes Thema innerhalb Ihres Studienganges betrachten. Es ist gestaltet
+        mit dem Ziel, Wissen und Erfahrungen zu spezifischen Inhalten oder Themen anzubieten sowie den 
+        Erwerb bestimmter Qualifikationen zu fördern. Ein wichtiger Aspekt eines Moduls ist seine 
+        didaktische Aufbereitung durch die Lehrenden. In den Vorlesungen, Übungen, Seminaren oder 
+        Laborpraktika, die im Rahmen des Moduls durchgeführt werden, werden Ihnen das notwendige Wissen 
+        und die erforderlichen
+
+
+scene:
+    ..........

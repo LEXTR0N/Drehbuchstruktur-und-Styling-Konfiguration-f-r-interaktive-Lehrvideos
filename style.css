@@ -1,0 +1,101 @@
+/* Monitor Aspect Ratio */
+:root {
+  --aspect-ratio: 16 / 9;
+}
+
+/* Slides */
+.slide-title {
+  font-size: 24px;
+  color: #000000;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slide-content {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slide-background {
+  background-color: #F5F5F5;
+  background-image: none; /* Replace with URL if image is used */
+}
+
+/* Teleprompter */
+.teleprompter {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.teleprompter-highlight {
+  color: #FF0000;
+  background-color: #FFFFE0;
+}
+
+/* Quiz */
+.quiz-questions {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quiz-answers .correct {
+  color: #00FF00;
+}
+
+.quiz-answers .incorrect {
+  color: #FF0000;
+}
+
+.quiz {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Screencasts */
+.screencast {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transform: translate(0, 0);
+}
+
+/* Images and Graphics */
+.image-graphic {
+  max-width: 500px;
+  max-height: 400px;
+  min-width: 100px;
+  min-height: 80px;
+  margin: auto;
+  border: 2px solid #CCCCCC;
+  box-shadow: 5px 5px 10px #888888;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Subtitles */
+.subtitle {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
